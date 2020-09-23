@@ -1,0 +1,65 @@
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: $white;
+  background-clip: border-box;
+  border: 1px solid rgba($color: $text-color, $alpha: .125);
+  border-radius: .25rem;
+
+  &-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    color: inherit;
+    background-color: rgba($color: $text-color, $alpha: .03);
+    border-bottom: 1px solid rgba($color: $text-color, $alpha: .125);
+
+    &:first-child {
+      border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    }
+  }
+
+  &-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+
+    .card-text {
+      margin-bottom: 0;
+    }
+  }
+
+  &--order {
+    .order {
+      &__client {
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin-bottom: 20px;
+
+          li {
+            font-weight: bold;
+          }
+        }
+      }
+
+      &__details {
+        ul {
+          list-style-type: none;
+          padding: 0;
+        }
+      }
+
+      .row:first-child {
+        margin-bottom: 20px;
+      }
+
+      &__table {
+        
+      }
+    }
+  }
+}

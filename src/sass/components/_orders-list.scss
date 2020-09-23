@@ -1,0 +1,20 @@
+#orders {
+  .item {
+    cursor: pointer;
+
+    &:hover:not(.item--active) {
+      background-color: darken($color: $white, $amount: 5%);
+    }
+    &__title {
+      margin-top: 0;
+      font-size: 16px;
+    }
+    &__subtitle {
+      color: $text-subcolor;
+    }
+
+    &--active {
+      background-color: darken($color: $white, $amount: 10%);
+    }
+  }
+}

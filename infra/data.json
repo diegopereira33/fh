@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "client": {
+      "fullname": "Bruce Wayne",
+      "document": 11111111111,
+      "address": {
+        "street": "Rua XV de Novembro",
+        "number": "1223"
+      }
+    },
+    "products": [
+      {
+        "code": "ABC123",
+        "description": "Furadeira",
+        "quantity": 1,
+        "unityType": "PC",
+        "unityPrice": 10.00
+      },
+      {
+        "code": "XYZ124",
+        "description": "Serra",
+        "quantity": 3,
+        "unityType": "PC",
+        "unityPrice": 20.00
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "client": {
+      "fullname": "Tony Stark",
+      "document": 2222222222,
+      "address": {
+        "street": "Rua Mal Deodoro",
+        "number": "1700"
+      }
+    },
+    "products": [
+      {
+        "code": "ABC125",
+        "description": "Bateria",
+        "quantity": 10,
+        "unityType": "PC",
+        "unityPrice": 10
+      },
+      {
+        "code": "XYZ126",
+        "description": "Parafuso",
+        "quantity": 3,
+        "unityType": "CX",
+        "unityPrice": 20
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+button:focus,
+input:focus,
+textarea:focus,
+a:focus {
+  outline: none;
+}
+
+#app {
+  font-family: $font-regular;
+  font-weight: 400;
+  color: $text-color;
+  background-color: $bg-color;
+  user-select: none;
+  overflow: hidden;
+
+  .container {
+    padding-top: 60px;
+  }
+}

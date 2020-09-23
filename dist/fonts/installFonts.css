@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('SegoeUI/SegoeUI.eot');
+    src: url('SegoeUI/SegoeUI.eot?#iefix') format('embedded-opentype'),
+         url('SegoeUI/SegoeUI.woff2') format('woff2'),
+         url('SegoeUI/SegoeUI.woff') format('woff'),
+         url('SegoeUI/SegoeUI.ttf') format('truetype'),
+         url('SegoeUI/SegoeUI.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

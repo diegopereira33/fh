@@ -1,0 +1,21 @@
+Tarefa: 
+
+Pré-requisito: Utilizar a biblioteca, Jquery e Bootstrap;
+
+1) - Elaborar um .json com a representação da imagem "Relatório de Vendas".
+2) - Criar 3 botões alinhados horizontalmente tendo as seguintes responsabilidades:
+ - O primeiro irá executar um cod. JS que através de uma requisição ajax importe os dados do .json e imprima em uma estrutura html.  
+ - O segundo (do meio) irá limpar o conteudo que o primeiro trouxe.
+ - O terceiro deverá ter a mesma funcionalidade do primeiro.
+
+Obs: Todo o Cod. deve ser responsivo, porem quando aberto em dispositivos com largura de tela menor ou igual a 768px 
+os produtos e seus atributos não podem ser visiveis e os botões devem ser alinhados verticalmente.
+
+Passos para realização:
+
+Considerações: Para realização da atividade iremos utilizar a SASS como pré-compilador CSS o automatizador de tarefas GULP que já virá configurado para as atividades, 
+vale lembrar que todo comando deverá ser iniciado com a palavra-chave GULP e em seguida o nome da tarefa: Ex: gulp build:local, algumas tarefas existentes são:
+ - build:local -> Essa tarefa irá limpar o conteudo da pasta 'dist' (se existir)  compilar todos os JS's e SCSS's e envia-los para as respectivas pastas dentro de uma pasta 'dist'
+ - watch -> irá verificar todas as modificações feitas em arquivos scss e js e compila-los.
+ - liveReload -> irá emular um servidor e atualizar o browser automaticamente conforme o seguimento da tarefa. 
+ 

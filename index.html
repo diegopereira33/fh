@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>FH</title>
+    <link rel="stylesheet" type="text/css" href="./dist/css/style.css" />
+  </head>
+  <body id="app">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-md-12">
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-primary" onclick="getOrders()">
+              <i class="fa fa-download"></i> Importar
+            </button>
+            <button
+              type="button"
+              class="btn btn-danger"
+              onclick="clearOrders()"
+            >
+              <i class="fa fa-trash"></i> Limpar
+            </button>
+            <button type="button" class="btn btn-info" onclick="getOrders()">
+              <i class="fa fa-circle"></i> Recarregar
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-2"><ul class="list-group" id="orders" style="display: none"></ul></div>
+        <div class="col-md-10">
+          <div class="card card--order" id="orderDetail" style="display: none">
+          </div>
+          <div class="card" id="notSelected" style="display: none">
+            <div class="card-header">Selecione pedido</div>
+          </div>
+        </div>
+        <div class="col-md-12" id="noContent">
+          <div class="card">
+            <div class="card-header">Sem conteúdo</div>
+            <div class="card-body">Não há pedido para ser mostrado</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../dist/js/script.js"></script>
+  </body>
+</html>
